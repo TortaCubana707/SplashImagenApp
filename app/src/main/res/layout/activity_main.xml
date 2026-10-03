@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_surface"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:contentDescription="@string/desc_logo"
+        android:src="@drawable/logo_splash" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:letterSpacing="0.15"
+        android:text="@string/titulo_app"
+        android:textColor="@color/app_text"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="@string/mensaje_app"
+        android:textColor="@color/app_text_suave"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtCatalogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:background="@color/app_panel"
+        android:gravity="center"
+        android:lineSpacingExtra="6dp"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="18dp"
+        android:text="@string/cargando_catalogo"
+        android:textColor="@color/neon_cian"
+        android:textSize="15sp" />
+
+</LinearLayout>

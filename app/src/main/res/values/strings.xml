@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pixel Arcade</string>
+    <string name="titulo_app">PIXEL ARCADE</string>
+    <string name="mensaje_app">Partida lista. El SplashScreen mostró el control mientras se preparaba el catálogo.</string>
+    <string name="etiqueta_catalogo">Catálogo cargado</string>
+    <string name="cargando_catalogo">Preparando catálogo…</string>
+    <string name="desc_logo">Control de videojuegos de Pixel Arcade</string>
+</resources>

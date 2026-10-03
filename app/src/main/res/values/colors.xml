@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Paleta arcade: fondo oscuro con acentos de neon -->
+    <color name="splash_background">#12082B</color>
+    <color name="app_surface">#1B1036</color>
+    <color name="app_panel">#241548</color>
+    <color name="app_text">#F2EDFF</color>
+    <color name="app_text_suave">#B9A8E8</color>
+    <color name="neon_cian">#22D3EE</color>
+    <color name="neon_violeta">#A855F7</color>
+</resources>
